@@ -401,7 +401,7 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                             <a class="btn btn-info" style="float:right; margin-right: 10px;" href="quanlyPage_LTHDNT.jsp" role="button">Phân công phản biện</a>
+                                             <a class="btn btn-info" style="float:right; margin-right: 10px;" href="quanlyPage_PCPB.jsp" role="button">Phân công phản biện</a>
                                         </div>
                                     </div>
                                 </div>

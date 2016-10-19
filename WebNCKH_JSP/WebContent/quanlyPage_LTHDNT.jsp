@@ -103,7 +103,7 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="HDNT">
                             <div class="row">
-                                <div class="cldsHDNT" style="background:white;height:600px;margin-right:15px;border-radius:3px;margin-top:-20px;">
+                                <div class="cldsHDNT" style="background:white;height:620px;margin-right:15px;border-radius:3px;margin-top:-20px;">
                                     <h2 class="tieude_theh"> THÀNH LẬP HỘI ĐỒNG NGHIỆM THU</h2><hr>
                                     <div class="tlhd">
                                         <!--Thành lập hội đồng nghiệm thu   -->
