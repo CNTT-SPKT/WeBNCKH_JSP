@@ -174,7 +174,7 @@
 													{
 														alert("Đánh giá thành công!");
 														e.preventDefault(); 
-														window.location.href = "giangvienPage.html";
+														window.location.href = "giangvienPage.jsp";
 													}
 													});
 												});

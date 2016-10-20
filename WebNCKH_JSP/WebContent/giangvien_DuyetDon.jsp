@@ -469,9 +469,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane active" id="DDHGH">
+			<div class="tab-pane active" id="DDHGH">
 							<div class="row">
-								<div class="QLyTK" style="background:white;height:390px; margin-right:15px;border-radius:3px;">
+								<div class="QLyTK" style="background:white;height:500px; margin-right:15px;border-radius:3px;">
 									<h2 class="tieude_theh">DUYỆT ĐƠN HỦY/GIA HẠN ĐỀ TÀI</h2><hr>
 
 									<div class="ad_table_qltk" style="margin:0px 5px 0px 5px;">
@@ -500,18 +500,24 @@
 									</div>
 									<form>
 										<label style="margin-left:15px;margin-right:5px;">Tên chủ nhiệm đề tài:</label>
-										<input type="text" name="firstname" style="margin-right:50px;" value="Lê Văn A">
+										<input type="text" name="firstname" style="margin-right:50px;" value="Lê Văn A" readonly>
 										<label style="margin-left:10px;margin-right:5px;">MSSV:</label>
-										<input type="text" name="lastname" value="14110180">
+										<input type="text" name="lastname" value="14110180" readonly>
 									</form><br>
 									<label class="col-sm-4 control-label" for="mota">Lý do hủy/gia hạn đề tài</label><br>
 									<div class="col-sm-12">
-										<textarea name="" id="mota" class="form-control" rows="3" required="required">Lý do gia đình</textarea>
+										<textarea name="" id="mota" class="form-control" rows="3" required="required" readonly>Lý do gia đình</textarea>
 									</div>
 									<div class="row">
-										<button style="margin-top:15px;" type="button" class="btn btn-xs btn-default" style="background-color: #dff0d8;"><b>Phê duyệt</b></button>
-									<button style="margin-top:15px;" type="button" class="btn btn-xs btn-default" style="background-color: #dff0d8;"><b>Không đồng ý</b></button>
+									<button style="margin-top:340px;margin-right:150px;" type="button" class="btn  btn-info"><b>Phê duyệt</b></button>
+									<button style="margin-top:15px;margin-left:150px;" type="button" class="btn btn-danger"><b>Không đồng ý</b></button>
 									</div>
+									<script>
+										$("#DDHGH button").on('click', function() {
+											alert("Xử lý thành công");
+											window.location.href = "giangvienPage.jsp";
+										});
+									</script>
 								</div>
 							</div>
 						</div>

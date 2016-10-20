@@ -596,7 +596,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div>	
 						</div>
 							 <div id='bttop'>
             <img src="images/backtotop.png" alt="backtotop" width="50px" height="50px">
