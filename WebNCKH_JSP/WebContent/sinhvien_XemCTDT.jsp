@@ -43,7 +43,7 @@
 								</ul>
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="#"><span  style="color:blue">Sinh Viên A</span></a></li>
-									<li><a href="mainPage.html">Đăng xuất</a></li>
+									<li><a href="mainPage.jsp">Đăng xuất</a></li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
@@ -585,7 +585,7 @@
 
 																		<div id="guidon" style="">
 																			<button type="submit" id="btn_GuiDon" style="color: #fff;background-color: #5bc0de;border-color: #46b8da; height:35px;width:150px;background-image: none;border: 1px solid transparent;border-radius: 4px; margin-right:15px;float:right;">Gửi đơn đăng ký</button>
-																			<a class="btn btn-warning" href="sinhvien_DeTaiDeXuat.html" role="button" style="margin-left:10px">Đăng ký đề tài được đề xuất</a>
+																			<a class="btn btn-warning" href="sinhvien_DeTaiDeXuat.jsp" role="button" style="margin-left:10px">Đăng ký đề tài được đề xuất</a>
 
 																		</div>
 																	</div>
@@ -618,7 +618,7 @@
 																<td>Nghiên cứu hệ thống rung</td>
 																<td>12/12/2012</td>
 																<td>13/12/2012</td>
-																<td><a href="sinhvien_ketqua.html">Xem</a></td>
+																<td><a href="sinhvien_ketqua.jsp">Xem</a></td>
 															</tr>
 														</tbody>
 													</table>

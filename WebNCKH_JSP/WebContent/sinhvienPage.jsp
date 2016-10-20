@@ -45,7 +45,7 @@
 								</ul>
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="#"><span  style="color:blue">Sinh Viên A</span></a></li>
-									<li><a href="mainPage.html">Đăng xuất</a></li>
+									<li><a href="mainPage.jsp">Đăng xuất</a></li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
