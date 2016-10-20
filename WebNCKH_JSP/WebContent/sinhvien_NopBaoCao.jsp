@@ -73,7 +73,7 @@
 				<div class="col-md-10">
 					<div class="tab-content">
 						<div class="tab-pane active" id="NopBaoCao">
-							<div class="sv_NopBC" style="background:white;height:500px;border-radius:3px;overflow:scroll;">
+							<div class="sv_NopBC" style="background:white;height:500px;border-radius:3px;overflow:auto;">
 								<h2 class="tieude_theh" >NỘP BÁO CÁO ĐỀ TÀI</h2><hr>
 								<div class="gv_bcdt" style="margin:15px 0px 10px 15px;">
 									<label>Mã số đề tài: 141</label><br>
@@ -667,17 +667,15 @@
 					</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div id='bttop'>
-<img src="images/backtotop.png" alt="backtotop" width="50px" height="50px">
-</div>
-	<footer>
-
-		<pre>Copyright@ Phòng nghiên cứu khoa học và quan hệ quốc tế
-		</pre>
-
-	</footer>
+				 <div id='bttop'>
+            <img src="images/backtotop.png" alt="backtotop" width="50px" height="50px">
+        </div>
+        <footer style="margin-bottom:0px;margin-top:10px;">
+            <pre style="margin-bottom:0px;">
+                Copyright@ Phòng nghiên cứu khoa học và quan hệ quốc tế
+            </pre>
+				</div>
+					</div>
+	
 </body>
 </html>

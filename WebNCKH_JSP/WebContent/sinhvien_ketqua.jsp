@@ -279,7 +279,6 @@
 								</div>
 							</div>
 						</div>
-						<
 									<div class="tab-pane" id="dkDeTai">
 										<div class="row" style="margin-right:0px;">
 											<div class="svdkDeTai" style="background:white;border-radius:3px">
@@ -662,17 +661,16 @@
 					</div>
 					</div>
 				</div>
+				 <div id='bttop'>
+            <img src="images/backtotop.png" alt="backtotop" width="50px" height="50px">
+        </div>
+        <footer style="margin-bottom:0px;margin-top:10px;">
+            <pre style="margin-bottom:0px;">
+                Copyright@ Phòng nghiên cứu khoa học và quan hệ quốc tế
+            </pre>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div id='bttop'>
-<img src="images/backtotop.png" alt="backtotop" width="50px" height="50px">
-</div>
-	<footer>
 
-		<pre>Copyright@ Phòng nghiên cứu khoa học và quan hệ quốc tế
-		</pre>
 
-	</footer>
 </body>
 </html>
