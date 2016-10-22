@@ -232,7 +232,53 @@
                                 </div>
                             </div>
                         </div>
+                        
+						<div class="tab-pane active" id="dsDeTaiDeXuat"  >
+							<div class="row">
+								<div class="qldsDeTai" style="background:white;height:500px;margin-right:15px;border-radius:3px">
+									<h2 class="tieude_theh">DANH SÁCH ĐỀ TÀI ĐƯỢC ĐỀ XUẤT</h2>
+									<hr>
+									<div class="ql_table_dsDeTai" style="Margin-top:20px;">
+										<table class="table table-striped table-hover">
+											<thead class="thead-default">
+												<tr class="success">
+													<th>Mã số</th>
+													<th>Tên đề tài</th>
+													<th>Ngày đăng ký</th>	
+													<th>Giảng viên hướng dẫn</th>
+													<th></th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>141</td>
+													<td>Nghiên cứu hệ thống nhúng</td>
+													<td>12/12/2012</td>
+													<td>Lê Thị B</td>
+													<td><a href="quanly_CTDTDeXuat.jsp" >Đăng ký</a></td>
+												</tr>
+												<tr>
+													<td>142</td>
+													<td>Xây dựng web bán điện thoại</td>
+													<td>12/12/2012</td>
+													<td>Lê C</td>
+													<td><a href="quanly_CTDTDeXuat.jsp" >Đăng ký</a></td>
+												</tr>
+												<tr>
+													<td>143</td>
+													<td>Xây dựng web laptop</td>
+													<td>12/12/2012</td>
+													<td>Lê C</td>
+													<td><a href="quanly_CTDTDeXuat.jsp" >Đăng ký</a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
 
+								</div>
+							</div>
+						</div>
                          <div class="tab-pane" id="postThongBao">
                             <div class="row">
                                 <div class="clposthongbao" style="overflow:auto; background:white;height:600px;margin-right:15px;border-radius:3px">
