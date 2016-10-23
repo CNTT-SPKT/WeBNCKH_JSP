@@ -112,10 +112,15 @@
 								</div>
 								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="margin-left:-10px">
-										<input id="input_file" type="file" value="" accept=".pdf,.docx">
+										
+										<div class="fileinput fileinput-new" data-provides="fileinput">
+									    <span class="btn btn-default btn-file">
+									    		<input accept=".pdf,.docx" type="file" multiple />
+									    </span>
+																		</div>
 									</div>
 									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-										<button type="submit" class="btn btn-primary" style="margin-top:-10px;width:100%;">Nộp file</button>
+										<button type="submit" class="btn btn-primary" style="margin-top:-10px;width:100%; margin-top:80px;margin-left:600px;]">Nộp file</button>
 									</div>
 								</div>
 								<script type="text/javascript">
