@@ -32,7 +32,7 @@ button.btn.btn-info {
 }
 
 img.img-responsive {
-    min-width: 333px;
+    min-width: 100px;
 }
 
 .thongqua, .khenthuong {

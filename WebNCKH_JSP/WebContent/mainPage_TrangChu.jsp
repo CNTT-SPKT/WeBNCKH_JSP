@@ -148,7 +148,7 @@
 		<div class="thongbao" style="cursor:pointer">
 			<div class="row">
 				<div>
-					<img src="images/thongbao.png" alt="Image">
+					<img src="images/thongbao.png" class="img-responsive" alt="Image">
 				</div>
 			</div>
 			<div class="notice">
