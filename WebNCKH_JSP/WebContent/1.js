@@ -204,57 +204,7 @@ $("#formcntt").validate({
 });
 });
 
-//validation cho form gia hạn/ hủy
 
-// $(document).ready(function() {
-//  $("#form_HuyGH").validate({
-//  	rules: {
-
-//  		name: "required",
-// 		mssv: "required",
-// 		mota:"required",
-// 		ngay:"required"
- 		
-//  	},
-//  	highlight: function(element) {
-// 	    var id_attr = "#" + $(element).attr("id") + "1";
-// 	    $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
-// 	  },
-// 	  unhighlight: function(element) {
-// 	    var id_attr = "#" + $(element).attr("id") + "1";
-// 	    $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
-// 	  },
-// 	  errorElement: 'span',
-// 	  errorClass: 'help-block',
-// 	  errorPlacement: function(error, element) {
-// 	    if (element.length) {
-// 	      error.insertAfter(element);
-// 	    } else {
-// 	      error.insertAfter(element);
-// 	    }
-// 	  },
-	  
-//  	messages: {
- 		
-//  		name: "Vui lòng nhập tên của bạn",
-// 		mssv: "Vui lòng nhập mssv",
-// 		mota:"Vui lòng nhập lý do",
-// 		ngay:"Vui lòng chọn gia hạn đến ngày"
- 		
-//  	}
-//  });
-// });
-// beforeSend: function() {                    
-//     $empty = $('form#orm_HuyGH').find("input").filter(function() {
-//         return this.value === "";
-//     });
-//     if($empty.length) {
-//         alert('You must fill out all fields in order to submit a change');
-//         return false;
-//     }else{
-//         return true;
-//     };
-// 	},
 
 $(document).ready(function() {
 
@@ -266,7 +216,7 @@ $(document).ready(function() {
 
         var validators = {
             name: {
-                regex: /^[A-Za-z0-9]{2,}$/
+                regex: /^[A-Za-zÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ]+(?=\s*\S).*$/,
             },
             mssv: {
                 regex: /^[A-Za-z0-9]{6,}$/
@@ -276,7 +226,7 @@ $(document).ready(function() {
             },
            
             ngay: {
-                regex: /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/
+                regex: /^(0?[1-9]|[12][0-9]|3[01])-(0?[1-9]|1[012])-((19[0-9]{2})|(20[0-1]{1}[0-4]{1}))$/
             },
             dxuatkinhphi: {
                 regex: /^[0-9]\d{0,6}$/
@@ -289,6 +239,18 @@ $(document).ready(function() {
             // },
             email: {
                 regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
+            },
+            diem1: {
+                regex: /^(1[0-0]|[0-9])$/
+            },
+            diem2: {
+                regex: /^(1[0-5]|[0-9])$/
+            },
+            diem3: {
+                regex: /^(3[0-5]|[0-9])$/
+            },
+            diem4: {
+            	regex: /^(10[0-0]|[0-9])$/
             },
             // phone: {
             //     regex: /^[0-9]\d{7,12}$/
@@ -391,6 +353,7 @@ $(document).ready(function() {
     $('form').goValidate();
 
 });
+
 
 
 $(function() {

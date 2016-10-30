@@ -110,7 +110,7 @@
 										<div class="form-inline">
 											<div class="col-xs-6">
 											<label class="fieldinput" style="margin-left:10px;">Họ tên: </label>
-											<input type="text" name="name" class="form-control required name"  id=""minlength="3" data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự." placeholder="Lê Thị Thảo" required>
+											<input type="text" name="name" class="form-control required name"  id=""minlength="2" data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự." placeholder="Lê Thị Thảo" required>
 											</div>
 										</div>
 										<div class="form-inline">
@@ -128,7 +128,7 @@
 											<div class="form-group">
 												<label class="col-sm-3" for="ngay" style="float:left; margin-left:10px; margin-top:15px;">Gia hạn đến ngày:</label>
 												<div class="col-sm-4">
-													<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="manual" data-content="Vui lòng nhập theo định dạng mm/dd/yy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
+													<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="manual" data-content="Vui lòng nhập theo định dạng dd/mm/yyyy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
 												</div>
 											</div>
 											<div>
@@ -465,8 +465,8 @@
 
 																		</div>
 																	</div>
-																</div>
-															</form>
+																</form>
+															</div>
 														</div>
 													</div>
 												</div>

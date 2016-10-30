@@ -229,11 +229,11 @@
 																	<div class="form-group">
 																		<label class="col-sm-2 control-label" for="tendetai">Tên đề tài:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<input type="text" name="mota" class="form-control required mota" placeholder="Đề tài 1"  id="" required minlength="6" data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này,ít nhất 6 ký tự.">
+																			<input type="text" name="name" class="form-control required name" placeholder="Đề tài 1"  id="" required minlength="6" data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này,ít nhất 6 ký tự.">
 																		</div>
 																		<label class="col-sm-2 control-label" for="mota">Mô tả:</label>
 																		<div class="col-sm-10">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="tạo 1 website bán hàng"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="mota" class="form-control required name" placeholder="tạo 1 website bán hàng"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 																		<br>
 																		<br>
@@ -264,11 +264,11 @@
 																					<div class="row">
 																						<label class="col-sm-1 control-label" for="thoigianbatdau">Từ:</label>
 																						<div class="col-sm-4" style="margin-bottom:5px;">
-																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yy" placeholder="mm/dd/yy" style="float:left; margin-top:10px;"required>
+																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yyyy" placeholder="mm/dd/yy" style="float:left; margin-top:10px;"required>
 																						</div>
 																						<label class="col-sm-1 control-label" for="thoigianketthuc">Đến:</label>
 																						<div class="col-sm-4" style="margin-bottom:5px;">
-																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
+																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yyyy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
 																						</div>
 																					</div>
 																				</div>
@@ -350,36 +350,36 @@
 																		<label class="control-label" for="">Tình hình nghiên cứu trong và ngoài nước:</label><br>
 																		<label class="col-sm-2 control-label" for="mota">Trong nước:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Tình hình nghiên cứu trong nước"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Tình hình nghiên cứu trong nước"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 																		<label class="col-sm-2 control-label" for="mota">Ngoài nước:</label><br><br>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Tình hình nghiên cứu ngoài nước"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Tình hình nghiên cứu ngoài nước"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 																		<label class="col-sm-2 control-label" for="mota">Tính cấp thiết:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Tính cấp thiết"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Tính cấp thiết"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 																		<label class="col-sm-2 control-label" for="mota">Mục tiêu:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Mục tiêu của đề tài"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Mục tiêu của đề tài"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 																		<label class="col-sm-2 control-label" for="mota">Phương pháp nghiên cứu:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Phương pháp và phạm vi nghiên cứu"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Phương pháp và phạm vi nghiên cứu"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 																		<label class="col-sm-2 control-label" for="mota">Nội dung nghiên cứu:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Nội dung nghiên cứu và tiến độ thực hiện"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Nội dung nghiên cứu và tiến độ thực hiện"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 																		<label class="col-sm-2 control-label" for="sanphamdukiem">Sản phẩm dự kiến:</label>
 																		<div class="col-sm-10" style="margin-bottom:5px">
-																			<textarea type="text" name="mota" class="form-control required mota" placeholder="Sản phẩm dự kiến"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
+																			<textarea type="text" name="name" class="form-control required name" placeholder="Sản phẩm dự kiến"  id="" required  data-placement="right" data-trigger="hover" data-content="Bạn cần phải nhập vào trường này" rows="2" required></textarea>
 																		</div>
 
 
@@ -404,8 +404,8 @@
 
 																		</div>
 																	</div>
-																</div>
-															</form>
+																</form>
+															</div>
 														</div>
 													</div>
 												</div>

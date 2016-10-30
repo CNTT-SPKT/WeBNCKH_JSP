@@ -289,7 +289,6 @@
 								</div>
 							</div>
 						</div>
-						
 									<div class="tab-pane" id="dkDeTai">
 										<div class="row" style="margin-right:0px;">
 											<div class="svdkDeTai" style="background:white;border-radius:3px">
@@ -338,11 +337,11 @@
 																					<div class="row">
 																						<label class="col-sm-1 control-label" for="thoigianbatdau">Từ:</label>
 																						<div class="col-sm-4" style="margin-bottom:5px;">
-																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yy" placeholder="mm/dd/yy" style="float:left; margin-top:10px;"required>
+																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng dd/mm/yyyy" placeholder="mm/dd/yy" style="float:left; margin-top:10px;"required>
 																						</div>
 																						<label class="col-sm-1 control-label" for="thoigianketthuc">Đến:</label>
 																						<div class="col-sm-4" style="margin-bottom:5px;">
-																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng mm/dd/yy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
+																							<input type="text" type="text" name="ngay" class="form-control required ngay"  id="" required data-placement="right" data-trigger="hover" data-content="Vui lòng nhập theo định dạng dd/mm/yyyy" placeholder="mm/dd/yy" style="float:left; margin-left:10px; margin-top:10px;"required>
 																						</div>
 																					</div>
 																				</div>
@@ -478,8 +477,8 @@
 
 																		</div>
 																	</div>
-																</div>
-															</form>
+																</form>
+															</div>
 														</div>
 													</div>
 												</div>
